@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>ADMISSION</title>
+    <style>
+        #ADM {
+            border: 3PX RED ridge;
+            text-align: center;
+            font-size: 38PX;
+            background-color: red;
+        }
+
+        #SD {
+            text-align: center;
+            background-color: deeppink;
+            font-size: 28PX;
+        }
+
+        #SAQ {
+            text-align: center;
+            background-color: deeppink;
+            font-size: 28PX;
+        }
+
+        h3 {
+            text-align: center;
+            background-color:maroon;
+            font-size: 23PX;
+        }
+
+
+        BODY {
+            background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-school-school-background-picture-image_348548.jpg); 
+
+        }
+
+        label {
+            color: mintcream;
+        }
+        #sse{
+            color: #000;
+        }
+    </style>
+
+</head>
+
+<body>
+    <FORM>
+        <fieldset>
+            <legend ID="ADM">ADMISSION FORM</legend>
+            <H2 ID="SD">STUDENT DETAILS</H2>
+            <label>1.FIRSTNAME :</label>
+            <input type="TEXT" required="required" />
+            <label>LASTTNAME :</label>
+            <input type="TEXT" required="required" />
+            <BR>
+            <BR>
+            <label>2. FATHER NAME :</label>
+            <input type="TEXT" required="required" />
+            <BR>
+            <BR>
+            <label>3. MOTHER NAME :</label>
+            <input type="TEXT" required="required" />
+            <BR>
+            <BR>
+            <label>4. DATE OF BIRTH :</label>
+            <input type="DATE" required="required" />
+            <BR>
+            <BR>
+            <label>5. GENDER :</label>
+            <input list="GENDER" required="required" />
+            <datalist ID="GENDER">
+                <option>MALE</option>
+                <option>FEMALE</option>
+            </datalist>
+            <BR>
+            <BR>
+            <label>5. CATEGORY :</label>
+            <label>GENERAL</label>
+            <input type="radio" NAME="CATEGORY" required="required" />
+            <label>OBC</label>
+            <input type="radio" NAME="CATEGORY" required="required" />
+
+            <label>SC</label>
+            <input type="radio" NAME="CATEGORY" required="required" />
+
+            <label>ST</label>
+            <input type="radio" NAME="CATEGORY" required="required" />
+
+
+
+            <BR>
+            <BR>
+            <label>6. BLOOD GROUP :</label>
+            <input list="GROUP" required="required" />
+            <datalist ID="GROUP">
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>AB+</option>
+            </datalist>
+            <BR>
+            <BR>
+            <label>7. MARITAL STATUS :</label>
+            <input LIST="STATUS" />
+            <datalist ID="STATUS">
+                <option>MARRIED</option>
+                <option>UNMARRIED</option>
+
+            </datalist>
+            <BR>
+            <BR>
+            <label>8. MOBILE NO :</label>
+            <input type="tel" maxlength="10" />
+            <BR>
+            <BR>
+            <label>9. EMAIL ID :</label>
+            <input type="email" />
+            <label>PASSWORD :</label>
+            <input type="password" />
+            <BR>
+            <BR>
+            <H2 ID="SAQ">STUDENT ACADEMIC QUALIFICATION</H2>
+            <h3> HIGHER SECONDARY EDUCATION</h3>
+            <br>
+            <br>
+            <label>NAME OF SCHOOL :</lable>
+                <input type="TEXT" />
+                <BR>
+                <BR>
+                <label>DIVISION :</label>
+                <input list="DIV" />
+                <datalist ID="DIV">
+
+                    <option>1ST DIVISION</option>
+                    <option>2ND DIVISION</option>
+                    <option>3RD DIVISION</option>
+                    <option> FAIL</option>
+                </datalist>
+ 
+
+             <h3 id="sse">SENIOR SECONDARY EDUCATION</h3>
+              
+                <label>NAME OF SCHOOL/COLLEGE :</label>
+                <input type="TEXT" />
+                <BR>
+                <BR>
+                <label>DIVISION :</label>
+                <input list="DIV" />
+                <datalist ID="DIV">
+
+                    <option>1ST DIVISION</option>
+                    <option>2ND DIVISION</option>
+                    <option>3RD DIVISION</option>
+                    <option> FAIL</option>
+
+
+
+                </datalist>
+                <BR>
+                <BR>
+                <label>SUBJECTS :</label>
+                <label>PHYSICS</label>
+
+                <input type="checkbox" />
+                <label>CHEMISTRY</label>
+                <input type="checkbox" />
+                <label>MATHS</label>
+                <input type="checkbox" />
+                <label>BIOLOGY</label>
+                <input type="checkbox" />
+                <label>ENGLISH</label>
+                <input type="checkbox" />
+                <label>HINDI</label>
+                <input type="checkbox" />
+                <BR>
+                <BR>
+                <label>UPLOAD PHOTO :</label>
+                <input type="file" />
+                <BR>
+                <BR>
+                <label>UPLOAD SIGNATURE :</label>
+                <input type="file" />
+                <BR>
+                <BR>
+                <BR>
+
+                <button><A href="FORM4.HTML">SUBMIT</A>
+                </button>
+        </fieldset>
+    </FORM>
+
+</body>
+
+</html>
