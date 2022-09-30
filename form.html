@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>form</title>
+    
+    <style>
+#L1{
+text-align: center;
+font-size: 40PX;
+background-color: blue;
+
+}
+body{
+    
+    background-image: url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?w=2000");
+    color:darkgoldenrod;
+}
+
+
+
+    </style>
+</head>
+<body>
+<form>
+<fieldset>
+<legend ID="L1">REGISTRATION FORM</legend>
+<LABLE>FIRSTNAME:</LABLE>
+<INPUT TYPE="TEXT"   required="required"  />
+<LABLE>LASTNAME:</LABLE>
+<INPUT TYPE="TEXT"  required="required"   />
+
+<BR>
+    <BR>
+        <label>FATHER NAME:</label>
+        <input type="=TEXT"   required="required"   />
+        <BR>
+            <BR>
+                <label>COUNTRY:</label>
+<INPut LIST="COUNTRIES" />
+<datalist ID="COUNTRIES">
+    <option>INDIA</option>
+    <option>NEPAL</option>
+    <option>BHUTAN</option>
+    <option>PAKISTAN</option>
+    <option>SRILANKA</option>
+</datalist>
+<BR>
+    <BR>
+        <label>EMAIL ID:</label>
+        <input TYPE="EMAIL"  required="required"   />
+        <BR>
+            <BR>
+                <label> PASSWORD</label>
+                <input type="password"/>
+                <br>
+                <br>
+                <label>GENDER :</label>
+
+                <label>MALE :</label>
+                <input type="radio" NAME="GENDER"/>
+                <label>FEMALE :</label>
+                <input type="radio" NAME="GENDER"/>
+                <BR>
+                    <BR>
+                        <LABLE>DATE OF BIRTH</LABLE>
+                                <input type="DATE"/>
+                                <BR>
+                                    <BR>
+                        <label>HOBBIES:</label>
+                        <label>SINGING</label>
+                        <input type="checkbox"/>
+                        <label>SKETCHING</label>
+                        <INPUT TYPE="CHECKBOX"/>
+                        <LABLE>POETRY</LABLE>
+                        <INPUT TYPE="CHECKBOX"/>
+                        <LABLE>TEACHING</LABLE>
+                        <INPUT type="checkbox"/>
+                        <BR>
+                            <BR>
+                                <label>MOBILE NO:</label>
+                                <input type="tel" maxlength="10"    required="required" />
+                                <BR>
+                                    <BR>
+                                        <label>UPLOAD RESUME :</label>
+                                        <input TYPE="FILE" multiple="multiple"/>
+                                        <BR>
+                                            <BR>
+                                                <label>ENTER YOUR DEMO VIDEO URL :</label>
+                                                <input type="URL"/>
+                                                <BR>
+                                                    <BR>
+    
+         <button> 
+            <a href="http://localhost:5500/pro/FORM2.HTML">Submit</a>
+        </button> 
+    <button>RESET</button>
+                                                                                              
+</fieldset>                                                     
+                                                    
+    </form>
+
+</body>
+</html>
