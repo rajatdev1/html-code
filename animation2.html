@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+#mydiv2{
+    text-align: center;
+    padding: 50px;
+    border: 3px green ridge;
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    animation-name: myanimation2;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function:ease-in;
+
+
+}
+@keyframes myanimation2{
+0%{ background-color: green; border-radius: 0px;  }
+25%{ background-color: red; border-radius: 50px; transform:rotate(60); margin-left:50px;margin-top: 50px; }
+50%{ background-color: yellow; border-radius: 100px;transform:rotate(120); margin-left:100px;margin-top: 100px;  }
+75%{ background-color: orchid;border-radius: 150px;transform:rotate(180); margin-left:150px;margin-top: 150px;  }
+100%{ background-color:blue;border-radius: 200px;transform:rotate(360); margin-left:200px; margin-top: 200px; }
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="mydiv2"> 
+hello world
+
+    </div>
+    
+</body>
+</html>
